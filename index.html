@@ -738,6 +738,7 @@
                 const card = document.createElement('div');
                 card.className = 'video-card';
                 card.innerHTML = `
+                    <h2>${video.title}</h2>
                     <iframe src="${video.url}" title="${video.title}"></iframe>
                     <p>${video.description}</p>
                 `;
